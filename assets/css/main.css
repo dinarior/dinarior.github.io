@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #000;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -111,17 +111,17 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		color: rgb(0, 3, 179);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #8aadff !important;
 		}
 
 	strong, b {
-		color: #777;
+		color: #000;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: #000;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -157,6 +157,7 @@ input, select, textarea {
 	}
 
 	h4 {
+		color: rgb(0, 3, 179);
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
@@ -2191,7 +2192,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 0 0 2.25em 0;
+		margin: 1 0 2.25em 0;
 		padding-left: 1.25em;
 	}
 
@@ -2675,15 +2676,16 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		/* background: #4acaa8; */
+		background: #308870;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
-		right: 0;
+		width: 15em;
+		left: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2764,7 +2766,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #449982;
 					display: block;
 					padding: 0;
 				}
@@ -2783,7 +2785,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #449982 !important;
 						}
 
 					#header > nav ul li:first-child {

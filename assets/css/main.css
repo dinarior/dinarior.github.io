@@ -2778,7 +2778,6 @@ input, select, textarea {
 						transition: none;
 						border: 0;
 						color: #ffffff !important;
-						/* color: #c70404 !important; */
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2964,7 +2963,7 @@ input, select, textarea {
 				-webkit-transform: translateX(23em);
 				-ms-transform: translateX(23em);
 				transform: translateX(23em);
-				right: 0;
+				left: 0;
 			}
 
 				#header > footer {
@@ -3156,7 +3155,7 @@ input, select, textarea {
 				-webkit-transform: translateX(17em);
 				-ms-transform: translateX(17em);
 				transform: translateX(17em);
-				right: 0;
+				left: 0;
 			}
 
 				#header > header {

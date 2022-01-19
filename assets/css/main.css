@@ -2192,7 +2192,7 @@ input, select, textarea {
 
 	ol {
 		list-style: decimal;
-		margin: 1 0 2.25em 0;
+		margin: 0 0 2.25em 0;
 		padding-left: 1.25em;
 	}
 
@@ -2796,7 +2796,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+		padding-right: 0;
 	}
 
 /* Main */
@@ -2860,7 +2860,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 15em;
+				left: 0;
 			}
 
 				#header > header {
@@ -2874,7 +2875,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 0;
 			}
 
 		/* Main */
@@ -2898,13 +2899,14 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 13em;
+				left: 0;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 10em;
 			}
 
 	}
@@ -2957,13 +2959,14 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 15em;
+				width: 11em;
 				z-index: 10002;
-				-moz-transform: translateX(15em);
-				-webkit-transform: translateX(15em);
-				-ms-transform: translateX(15em);
-				transform: translateX(15em);
-				left: 0;
+				-moz-transform: translateX(11em);
+				-webkit-transform: translateX(11em);
+				-ms-transform: translateX(11em);
+				transform: translateX(11em);
+				right: 0;
+				left:auto;
 			}
 
 				#header > footer {
@@ -3064,10 +3067,10 @@ input, select, textarea {
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(-23em);
-				-webkit-transform: translateX(-23em);
-				-ms-transform: translateX(-23em);
-				transform: translateX(-23em);
+				-moz-transform: translateX(-11em);
+				-webkit-transform: translateX(-11em);
+				-ms-transform: translateX(-11em);
+				transform: translateX(-11em);
 			}
 
 			body.header-visible #header {
@@ -3155,7 +3158,7 @@ input, select, textarea {
 				-webkit-transform: translateX(15em);
 				-ms-transform: translateX(15em);
 				transform: translateX(15em);
-				left: 0;
+				right: 0;
 			}
 
 				#header > header {
@@ -3216,10 +3219,10 @@ input, select, textarea {
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(-17em);
-				-webkit-transform: translateX(-17em);
-				-ms-transform: translateX(-17em);
-				transform: translateX(-17em);
+				-moz-transform: translateX(-15em);
+				-webkit-transform: translateX(-15em);
+				-ms-transform: translateX(-15em);
+				transform: translateX(-15em);
 			}
 
 	}
